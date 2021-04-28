@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Classe che descrive una <i>Stalla</i>
  * 
  * @author Jacopo Molle
- * @version 1.0
+ * @version 1.0 gitHub
  */
 public class Stalla {
 
