@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Classe che descrive una <i>Stalla</i>
  * 
  * @author Jacopo Molle
- * @version 1.0 gitHub
+ * @version 2.0 gitHub modificato da remoto
  */
 public class Stalla {
 
@@ -41,7 +41,7 @@ public class Stalla {
 	 * Metodo che elimina un <i>Animale</i> dall'ArrayList dato il codice identificativo
 	 * 
 	 * @param s Codice dell'<i>Animale</i>
-	 * @return Ritorna un valore <b>true</b> se la rimozione è avvenuta con successo, <b>false</b>
+	 * @return Ritorna un valore <b>true</b> se la rimozione Ã¨ avvenuta con successo, <b>false</b>
 	 *         in caso contrario
 	 */
 	private boolean delAnimale(String s) {
@@ -105,7 +105,7 @@ public class Stalla {
 	 * @param args	Argomenti da linea di comando
 	 */
 	public static void main(String[] args) {
-		Stalla st = new Stalla("Stalla Pokémon");
+		Stalla st = new Stalla("Stalla PokÃ©mon");
 		Cavallo ca = new Cavallo("xocb", 14, 2.5f, "Pegaso", true);
 		Cavallo ca2 = new Cavallo("cnwo", 10, 30f, "Pegaso", false);
 		Cavallo ca3 = new Cavallo("cniu", 9, 1.5f, "Pegaso", true);
